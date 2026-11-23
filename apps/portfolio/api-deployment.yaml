@@ -16,7 +16,7 @@ spec:
       - name: harbor-pull
       containers:
       - name: api
-        image: 192.168.65.132:8085/portfolio/api:v2
+        image: 192.168.65.132:8085/portfolio/api:1.0.0
         ports:
         - containerPort: 3001
         resources:
